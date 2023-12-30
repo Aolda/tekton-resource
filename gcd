@@ -1,0 +1,12 @@
+#!/bin/bash
+
+command=$1
+
+if [ "$command" = "tekton" ]; then
+    ansible-playbook ./playbooks/tekton.yml
+    ansible-playbook ./playbooks/tekton-resource.yml 
+fi
+
+if [ "$command" = "add" ]; then
+    ansible-playbook ./playbooks/tekton-resource.yml 
+fi

@@ -1,0 +1,16 @@
+gitSecret:
+  username: "jalju0804"
+  password: ""
+  email: "dlckswn334@naver.com"
+docker:
+  configJson: ""
+  ImageReference: "dlckswn334/gcd-server"
+application:
+  name: "example"
+  gitRepoUrl: "https://github.com/woozco/Woozco_BE.git"
+  destinationNamespace: default
+manifestGitRepo: 
+  baseURL: "https://github.com/jalju0804/gcd-manifest.git"
+  branch: "main"
+  FilePath: "backend/deploy.yaml"
+pipelineRunName: "원하는 이름"
