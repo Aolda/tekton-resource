@@ -1,4 +1,5 @@
 # 사용법
+1
 ## gcd.yaml
 ```
 gitSecret:
